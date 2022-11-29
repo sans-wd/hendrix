@@ -1,0 +1,286 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Poppins", helvetica;
+}
+.mypadd {
+  padding: 120px 0;
+}
+.myshadow {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.alcenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spbtw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo p {
+  font-family: "Kaushan Script";
+  font-size: 32px;
+  line-height: 46px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.menu ul li {
+  padding: 0 10px;
+  font-size: 12px;
+  color: #999999;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.back {
+  background-image: url(https://bslthemes.com/html/hendrix/theme_colors/default/images/slide-bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.develp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 500px;
+}
+
+.develp h1 {
+  margin: 30px 0 15px 0;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: -0.045em;
+}
+.develp h1 p {
+  font-size: 16px;
+  letter-spacing: 1rem;
+}
+.develp h1 p i {
+  cursor: pointer;
+}
+
+.text h1 {
+  margin: 28px 0;
+  font-weight: 400;
+  font-family: "Kaushan Script", helvetica;
+  color: #292929;
+}
+
+.text h6 {
+  margin: 25px 0;
+  padding: 0;
+  font-size: 15px;
+  color: #999999;
+  line-height: 28px;
+}
+
+.text p {
+  padding: 2px 0 0 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  color: #292929;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: inset 0 -6px 0 #fdd912;
+}
+
+.text_cards h1 {
+  font-family: "Kaushan Script", helvetica;
+  color: #292929;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.cardddd h2 {
+  font-size: 44px;
+  line-height: 48px;
+  color: #fdd912;
+}
+
+.cardddd h3 {
+  position: relative;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.cardddd p {
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.back2 {
+  background: #f9f9f9;
+  padding: 120px 0;
+}
+
+.product_text h1 {
+  font-family: "Kaushan Script", helvetica;
+  color: #292929;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.product_text ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.product_text ul li {
+  list-style-type: none;
+  font-size: 15px;
+  color: #999999;
+  line-height: 16px;
+  cursor: pointer;
+  padding-right: 10px;
+}
+.product_text ul li:first-child {
+  color: #fdd912;
+}
+.product_card img {
+  transition: 0.4s;
+}
+.product_card img:hover {
+  margin-top: -10px;
+}
+.latest_blog h1 {
+  font-family: "Kaushan Script", helvetica;
+  color: #292929;
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.blogcard h1 {
+  font-size: 19px;
+  line-height: 24px;
+  margin: 0 0 13px 0;
+  font-weight: 500;
+  color: #292929;
+}
+.blogcard p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  color: #999999;
+}
+.blogcard p span {
+  font-size: 12px;
+  font-weight: 400;
+  color: #b9b9b9;
+}
+
+.my_inp {
+  border-radius: 0px;
+  margin: 0 0 25px 0;
+  padding: 0;
+  display: block;
+  width: 100%;
+  height: 48px;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: -0.045em;
+  font-weight: 500;
+  resize: none;
+  outline: 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contact_us textarea {
+  margin: 0 0 35px 0;
+  padding: 20px 0;
+  height: 120px;
+  display: block;
+  width: 100%;
+  font-size: 13px;
+  color: #292929;
+  letter-spacing: -0.045em;
+  font-weight: 500;
+  resize: none;
+  outline: 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0px;
+}
+
+.yellowtextt {
+  padding: 2px 0 0 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  color: #292929;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  line-height: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: inset 0 -6px 0 #fdd912;
+  border: none;
+  background: none;
+}
+.futext {
+  text-align: center;
+}
+.futext i {
+  cursor: pointer;
+}
+.icon-background {
+  color: #999999;
+  outline: black;
+}
+
+.futext p:last-of-type {
+  font-size: 13px;
+  color: #898989;
+}
+
+@media only screen and (max-width: 992px) {
+  .mycard {
+    display: block;
+  }
+  .personpic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mycard .text {
+    text-align: center;
+    padding: 0 !important;
+  }
+  .develp h1 {
+    font-size: 85px;
+  }
+}
